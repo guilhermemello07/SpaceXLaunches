@@ -106,7 +106,7 @@ Refactor the ViewModel to use generics to clean the code and make it more readab
 This feature will probably be implemented in a few days, but as I had to deliver the project on a specific date, I decided to make the whole app functional as better as I could with the available time.
 
 ### Local and Irish dates
-To better deal with dates, if this was a commercial project aimed to be delivered for customers and I had more time to build it, I would deal with dates a little differently.
+If I had more time, I would have done something like the following:
 First, I would get only the UTC date and time, map it to the correspondent Irish date and time, and for the local one, I would get the information from the `Launchapad` model.
 Each launchpad has a `region` variable that I could use with an Enum to get the correspondent available TimeZone, for example, the launchpad region of `"florida"` would be mapped to the Timezone of `TimeZone(identifier: "America/New_York")`.
 
