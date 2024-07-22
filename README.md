@@ -1,7 +1,7 @@
 # SpaceXLaunches
 SpaceXLaunches is an iOS application that allows users to view information about past and upcoming SpaceX launches. The app fetches data from the [SpaceX-API](https://github.com/r-spacex/SpaceX-API) and displays it in a user-friendly interface. Users can also view detailed information about the rockets and launchpads associated with each launch.
 
-This project was created for an iOS Developer Technical interview at EIDA Solutions.
+This project was created for an iOS Developer Technical interview.
 
 ## Video 
 
