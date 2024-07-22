@@ -112,6 +112,7 @@ SXError is an enumeration that defines possible errors in the application, such 
 The models include static sample data for use in SwiftUI previews, allowing you to preview views without fetching real data.
 
 ## Future Improvements
+* Refactor ViewModel to use generics and create Managers to handle specific data.
 * Add search functionality to filter launches by name or date.
 * Add support for push notifications for upcoming launches.
 * Improve error handling and user feedback.
