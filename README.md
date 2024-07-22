@@ -34,6 +34,7 @@ https://github.com/user-attachments/assets/cf5d1072-e7f9-426b-9700-d03930987149
 - JSON Decoding and Encoding
 - MapKit
 - XCTest
+- Network Manager to monitor Internet connection
 - MVVM (Model-View-ViewModel) design pattern
 
 ## Design Pattern
@@ -63,7 +64,9 @@ open SpaceXLaunches.xcodeproj
 SpaceXLaunches/
 │
 ├── SpaceXLaunchesApp      
-├── URLSessionProtocol    
+├── URLSessionProtocol
+├── Managers/
+│   └── NetworkManager
 ├── Cache/
 │   ├── ImageCache
 │   └── CacheAsyncImage
